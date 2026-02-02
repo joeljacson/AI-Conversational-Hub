@@ -39,7 +39,7 @@ export function InputArea({ onSend, disabled }: InputAreaProps) {
       <div className="max-w-4xl mx-auto relative px-4 md:px-0">
         <form
           onSubmit={handleSubmit}
-          className="relative flex items-end gap-2 p-2 rounded-[28px] glass border-white/10 bg-black/40 shadow-2xl transition-all duration-300 focus-within:border-primary/50 focus-within:bg-black/60 focus-within:shadow-primary/10"
+          className="relative flex items-end gap-2 p-2 rounded-[28px] glass border-white/10 bg-black/60 shadow-2xl transition-all duration-300 focus-within:border-primary/50 focus-within:bg-black/80 focus-within:shadow-primary/10"
         >
           {/* Microphone Button (Placeholder for future voice feature) */}
           <button

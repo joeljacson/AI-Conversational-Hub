@@ -55,7 +55,7 @@ export function MessageBubble({ message, onChipClick }: MessageBubbleProps) {
 
       {/* Metadata Renderers */}
       {!isUser && metadata && (
-        <div className="pl-12 mt-3 space-y-3 w-full max-w-[90%]">
+        <div className="pl-12 mt-3 space-y-3 w-full max-w-[90%] pb-4">
           
           {/* Recipe Step */}
           {metadata.recipeStep && (
