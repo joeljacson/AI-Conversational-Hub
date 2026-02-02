@@ -40,6 +40,10 @@
   --radius: 1rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   * {
     @apply border-border;
