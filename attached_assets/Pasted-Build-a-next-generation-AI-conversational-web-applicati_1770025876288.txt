@@ -1,0 +1,193 @@
+Build a next-generation AI conversational web application named “BAE” (Brainy Assistant for Everything), where the entire user experience happens inside a single intelligent chat interface. There are no pages, tabs, side panels, popups, or modals. The chat itself is the UI and dynamically adapts based on user intent.
+
+🧬 PRODUCT IDENTITY
+
+Name: BAE
+
+Tagline: Chat. Discover. Learn. Cook.
+
+Core Principle: The chat is the product
+
+Personality: Calm, friendly, intelligent AI guide
+
+Philosophy: Ask → Understand → Adapt → Respond
+
+🎨 VISUAL & UI STYLE
+
+Dark navy / deep indigo gradient background
+
+Premium dark-mode look
+
+Glassmorphism chat container (blur, transparency)
+
+Cyan / electric-blue accent highlights
+
+Rounded chat bubbles and chips
+
+Soft shadows, subtle glow
+
+Minimal, modern, distraction-free
+
+🧠 INITIAL CHAT STATE (HERO AS CHAT)
+
+Centered BAE mascot / avatar
+
+Text: Meet BAE
+
+Subtext: Chat. Discover. Learn. Cook.
+
+One large chat input bar below
+
+This is not a landing page. This is the first chat state.
+
+🎙️ CHAT INPUT
+
+Fixed bottom input bar after first message
+
+Placeholder: “Type or say anything… try ‘Biryani’”
+
+Send icon ➤
+
+Optional microphone icon
+
+Soft glow on focus / voice activity
+
+🔁 TRANSITION TO CHAT MODE
+
+After first user message:
+
+Mascot moves into a small chat header
+
+“Meet BAE” fades out
+
+Chat bubbles begin appearing
+
+No reload, no navigation change
+
+💬 CORE CHAT BEHAVIOR
+
+Chat is the only UI
+
+No page reloads, no screens
+
+AI never dumps all information
+
+AI asks clarifying questions
+
+User intent controls what is shown
+
+Context is preserved until the user changes food
+
+🪜 CHAT FLOW RULES (INLINE ONLY)
+1️⃣ Food Trigger
+
+When the user enters a food name (e.g., Biryani, Pizza, Sushi, Idli–Sambar):
+
+Respond with a chat message:
+
+“Nice choice 😄 Which style are you looking for?”
+
+Show inline selectable chips inside chat:
+
+Example: Hyderabadi, Ambur, Lucknowi, Kolkata (or relevant styles)
+
+2️⃣ Persistent Action Chips
+
+After a style is selected, always show these inline action chips:
+
+Cuisine Info
+
+Ingredients
+
+Full Recipe
+
+Quick Version
+
+These chips must remain visible until the user changes the food.
+
+3️⃣ Repeatable Actions (CORE IDEOLOGY)
+
+Clicking any action adds a new chat message
+
+Do not remove the action chips
+
+User can switch between actions again and again
+
+Switching actions updates chat but keeps context
+
+Food + style are preserved
+
+📋 CONTENT RULES
+
+Cuisine Info → short description + region
+
+Ingredients → checklist-style chat message
+
+Full Recipe → step-by-step chat messages
+
+Quick Version → compressed recipe summary
+
+🟥 RECIPE AS CHAT TIMELINE
+
+Recipe steps appear sequentially as chat messages
+
+Each step includes:
+
+Step number
+
+Time
+
+Short AI tip
+
+Inline “Next step” button
+
+No page-style layout
+
+🧩 INLINE CHAT ACTIONS
+
+Shown only when relevant:
+
+❤️ Save
+
+📤 Share
+
+🥗 Nutrition?
+
+⏱ Make it quicker
+
+🔁 Change style
+
+No side panels
+No popups
+No modals
+
+🎞️ MICRO-ANIMATIONS
+
+Chat bubbles slide in smoothly
+
+Chips fade + scale on appearance
+
+Mascot reacts to state:
+
+Listening → ripple glow
+
+Thinking → pulse
+
+Responding → subtle movement
+
+♿ ACCESSIBILITY
+
+Large readable text
+
+High-contrast dark mode
+
+Keyboard + voice support
+
+Low cognitive load
+
+🦶 FOOTER
+
+Minimal text under chat:
+
+BAE learns with you. Data stays private.
+Terms • Privacy
