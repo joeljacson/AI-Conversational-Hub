@@ -35,11 +35,11 @@ export function InputArea({ onSend, disabled }: InputAreaProps) {
   };
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 p-4 md:p-6 bg-gradient-to-t from-background via-background/95 to-transparent z-50">
+    <div className="fixed bottom-0 left-0 right-0 p-6 md:p-10 bg-gradient-to-t from-background via-background/95 to-transparent z-50">
       <div className="max-w-4xl mx-auto relative px-4 md:px-0">
         <form
           onSubmit={handleSubmit}
-          className="relative flex items-end gap-2 p-2 rounded-[28px] glass border-white/10 bg-black/60 shadow-2xl transition-all duration-300 focus-within:border-primary/50 focus-within:bg-black/80 focus-within:shadow-primary/10"
+          className="relative flex items-end gap-2 p-3 rounded-[32px] glass border-white/10 bg-black/60 shadow-2xl transition-all duration-300 focus-within:border-primary/50 focus-within:bg-black/80 focus-within:shadow-primary/10"
         >
           {/* Microphone Button (Placeholder for future voice feature) */}
           <button
